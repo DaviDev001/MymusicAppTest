@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Meu Player",
+    "slug": "meu-player",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0e2427",
+    "plugins": ["expo-audio"],
+    "android": {
+      "package": "com.meuplayer.app",
+      "permissions": [
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "POST_NOTIFICATIONS",
+        "WAKE_LOCK"
+      ]
+    }
+  }
+}
